@@ -1,0 +1,42 @@
+/* 네비게이션 바 스타일 */
+.navbar {
+    position: fixed; /* 상단에 고정 */
+    display: flex;
+    justify-content: space-between;
+    background-color: #004A2F;
+    padding: 10px, 20px;
+    top: 0;
+    height:65px;
+    width: 100%;
+    align-items: center; /* 세로 중앙 정렬 */
+    z-index: 1000; /* 다른 요소 위에 배치 */
+}
+
+/* 로고 스타일 */
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+.navbar-logo img {
+    height: 30px;
+    width: auto;
+}
+
+/* 햄버거 메뉴 토글 버튼 */
+.navbor_toggleBtn {
+    display: flex;
+    align-items: center;
+    background-color: #004A2F;    
+    padding: 0px 8px 8px 8px;
+
+}
+
+.navbor_toggleBtn p {
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+    margin: 0 10px;
+
+}

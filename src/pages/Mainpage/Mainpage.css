@@ -1,0 +1,27 @@
+/* start 안내 멘트 */
+.start {
+    padding: 30px;
+    color:#003723;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* 더보기 버튼 */
+.more_letter {
+    display: block; 
+    margin: 20px auto;
+    padding: 0px 20px; 
+    background-color: #004A2F; 
+    color: white; 
+    border: none;
+    border-radius: 5px; 
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer; 
+    text-align: center; 
+  }
+  
+  .more_letter:hover {
+    background-color: #4f4f4f; 
+  }

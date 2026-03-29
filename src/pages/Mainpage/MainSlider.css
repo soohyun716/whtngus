@@ -1,0 +1,24 @@
+/* 메인이미지 슬라이더 스타일 */
+.main-slider-container {
+    width:100%;
+    overflow: hidden; /* 슬라이더 외부 이미지 숨기기 */
+    position: relative;
+}
+
+.main-slider {
+    padding-top: 65px; /* 네비게이션 바의 높이만큼 여백 추가 */
+    display: flex;
+    transition: transform 1s ease-in-out; /* 이미지 넘어가는 속도 1초 */ 
+}
+
+.main-slide {
+    min-width: 100%; /* 슬라이드가 전체 화면을 차지하도록 */
+}
+
+.main-slide img {
+    width: 100%;
+    height: auto;
+    opacity: 0.9;
+}
+
+
